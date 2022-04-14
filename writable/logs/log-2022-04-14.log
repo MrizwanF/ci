@@ -1,0 +1,158 @@
+CRITICAL - 2022-04-14 02:50:49 --> syntax error, unexpected '$data' (T_VARIABLE), expecting ')'
+#0 C:\laragon\www\ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\ci\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\ci\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\ci\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-04-14 02:50:52 --> syntax error, unexpected '$data' (T_VARIABLE), expecting ')'
+#0 C:\laragon\www\ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\ci\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\ci\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\ci\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-04-14 02:51:04 --> syntax error, unexpected '$data' (T_VARIABLE), expecting ')'
+#0 C:\laragon\www\ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\ci\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\ci\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\ci\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-04-14 02:51:52 --> syntax error, unexpected '$data' (T_VARIABLE), expecting ')'
+#0 C:\laragon\www\ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\ci\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\ci\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\ci\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-04-14 03:01:38 --> syntax error, unexpected '/', expecting ';' or ','
+#0 C:\laragon\www\ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\ci\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\ci\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\ci\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2022-04-14 03:02:01 --> Class 'App\Controllers\HomeModel' not found
+#0 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\ci\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-04-14 03:02:48 --> Class 'App\Controllers\HomeModel' not found
+#0 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\ci\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-04-14 03:03:59 --> Class 'App\Controllers\HomeModel' not found
+#0 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\ci\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-04-14 03:04:32 --> Class 'App\Controllers\RizwanHome' not found
+#0 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\ci\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-04-14 03:05:04 --> Class 'App\Controllers\RizwanHome' not found
+#0 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\ci\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-04-14 03:06:43 --> Class 'App\Controllers\RizwanHome' not found
+#0 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\ci\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+CRITICAL - 2022-04-14 03:08:01 --> Class 'App\Controllers\RizwanHome' not found
+#0 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\laragon\www\ci\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#5 {main}
+ERROR - 2022-04-14 03:08:57 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-04-14 03:08:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\laragon\www\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laragon\www\ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laragon\www\ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\laragon\www\ci\app\Controllers\Home.php(15): CodeIgniter\BaseModel->findAll()
+#5 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ci\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2022-04-14 03:09:55 --> Error connecting to the database: Unknown database 'ci'
+CRITICAL - 2022-04-14 03:09:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci'
+#0 C:\laragon\www\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laragon\www\ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laragon\www\ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\laragon\www\ci\app\Controllers\Home.php(15): CodeIgniter\BaseModel->findAll()
+#5 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ci\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+ERROR - 2022-04-14 03:09:57 --> Error connecting to the database: Unknown database 'ci'
+CRITICAL - 2022-04-14 03:09:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci'
+#0 C:\laragon\www\ci\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\ci\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laragon\www\ci\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laragon\www\ci\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\laragon\www\ci\app\Controllers\Home.php(15): CodeIgniter\BaseModel->findAll()
+#5 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ci\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
+CRITICAL - 2022-04-14 03:38:58 --> Undefined index: edu_nama
+#0 C:\laragon\www\ci\app\Views\home.php(133): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 133, Array)
+#1 C:\laragon\www\ci\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\ci\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\ci\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\laragon\www\ci\app\Controllers\Home.php(20): view('home', Array)
+#5 C:\laragon\www\ci\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\laragon\www\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laragon\www\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\laragon\www\ci\system\Commands\Server\rewrite.php(43): require_once('C:\\laragon\\www\\...')
+#10 {main}
